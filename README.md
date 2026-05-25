@@ -1,12 +1,13 @@
 # CRM Sales Pipeline Analysis (MySQL)
 
+## Project Overview
+
 This project analyzes CRM sales data using MySQL to uncover insights related to:
 
 - Sales pipeline trends
-- Agent and manager performance
-- Product revenue and win rates
-- Customer account analysis
-- Regional office performance
+- Sales agent performance
+- Product revenue analysis
+- Account and regional performance
 
 ## Dataset
 
@@ -25,32 +26,26 @@ The project uses three datasets:
 - Revenue Analysis
 - KPI Reporting
 - Business Intelligence Queries
-- Data Cleaning Logic
-
-## Key Business Questions
-
-### Sales Pipeline Analysis
-- Which month generated the most sales opportunities?
-- What percentage of deals were lost?
-- Which product had the highest win rate?
-
-### Sales Performance
-- Which sales agent generated the most revenue?
-- Which manager had the highest-performing team?
-
-### Product Analysis
-- Which products generated the most revenue?
-- Are there pricing inconsistencies between sales price and close value?
-
-### Account Analysis
-- Which regional offices performed best?
-- Which parent companies generated the most revenue?
 
 ## Tools Used
 
 - MySQL
 - GitHub
-- CSV Data Sources
+- Excel
+
+## SQL Analysis Results
+
+### Product Win Rates
+
+![Product Win Rates](screenshots/product_win_rates.png)
+
+### Revenue by Office Location
+
+![Revenue by Office Location](screenshots/revenue_by_office_location.png)
+
+### Sales Agent Win Rates
+
+![Sales Agent Win Rates](screenshots/sales_agent_win_rates.png)
 
 ## Example Query
 
